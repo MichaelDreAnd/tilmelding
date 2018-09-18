@@ -7,11 +7,9 @@
 @{
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Register";
-
     string email = "";
     string loginData = "";
     string providerDisplayName = "";
-
     var returnUrl = Request.QueryString["ReturnUrl"];
     if (returnUrl.IsEmpty()) {
         // Some external login providers always require a return URL value
