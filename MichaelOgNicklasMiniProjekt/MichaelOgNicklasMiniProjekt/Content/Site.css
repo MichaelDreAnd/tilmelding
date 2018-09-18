@@ -22,6 +22,7 @@ a {
     text-decoration: underline;
 }
 
+
     a:link, a:visited,
     a:active, a:hover {
         color: #333;
@@ -211,6 +212,7 @@ ul#menu {
 .featured {
     background-color: #fff;
 }
+
 
     .featured .content-wrapper {
         background-color: #7ac0da;

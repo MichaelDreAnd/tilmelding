@@ -8,10 +8,13 @@ using System.Web;
 /// </summary>
 public class createmodel
 {
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
+
     public createmodel()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+     
     }
+   
 }
