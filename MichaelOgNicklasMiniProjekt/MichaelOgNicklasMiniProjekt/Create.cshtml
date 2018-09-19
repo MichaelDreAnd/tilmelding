@@ -1,34 +1,34 @@
 ﻿@{
-//createmodel createUser = new createmodel();
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Home Page";
 
-    <p>Navn:</p>
-    <input id="FullNameBox" type="text" />
 
-    <p>Telefon:</p>
-    <input id="PhoneBox" type="text" />
+    //createmodel createUser = new createmodel();
 
-    <p>Email:</p>
-    <input id="EmailBox" type="text" />
 
-    <br />
-    <button onclick="printInfo(FullNameBox.value,PhoneBox.value, EmailBox.value)">Tilmeld</button>
+<p>Navn:</p>
+<input id="FullNameBox" type="text" />
 
-/*<input type="button" value="Tilmeld" onclick="alert('Navn: ' + FullNameBox.value +
-'\nTelefon: ' + PhoneBox.value + '\nEmail: ' + EmailBox.value)" />*/
+<p>Telefon:</p>
+<input id="PhoneBox" type="text" />
 
-/*
-<input id="firstNamebox" type="text" value="@create.FirstName" />
+<p>Email:</p>
+<input id="EmailBox" type="text" />
 
-<input type="button" value="Get Value" onclick="alert(firstNamebox.value)" /> */
+<br />
+<button onclick="printInfo(FullNameBox.value,PhoneBox.value, EmailBox.value)">Tilmeld</button>
 
-    <p id="Tilmelding"></p>
 
-    <script>
-        function printInfo(FullName, Phone, Email) {
-            document.getElementById("Tilmelding").innerHTML =
-                "Navn: " + FullName + " Telefon: " + Phone + " Email: " + Email;
-        }
-    </script>
+
+<p id="Tilmelding"></p>
+
+
+<script>
+    function printInfo(FullName, Phone, Email) {
+        document.getElementById("Tilmelding").innerHTML =
+            "Navn: " + FullName + " Telefon: " + Phone + " Email: " + Email;
+    }
+</script>
 
 }
 

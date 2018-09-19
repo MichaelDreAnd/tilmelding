@@ -12,6 +12,7 @@ body {
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
+    
 }
 
 a {
@@ -96,34 +97,39 @@ h5, h6 {
 ----------------------------------------------------------*/
 .content-wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 99%;
+  height:99%;
 }
 
 #body {
     background-color: #efeeef;
     clear: both;
-    padding-bottom: 35px;
+    
 }
 
-    .main-content {
-        background: url("../Images/accent.png") no-repeat;
-        padding-left: 10px;
-        padding-top: 30px;
-    }
+.main-content {
+    background: url(https://superfitmor.dk/wp-content/uploads/2016/03/L%C3%B8ber.jpg) no-repeat;
+    padding-left: 10px;
+    padding-top: 30px;
+    height:80%;
+    background-size: cover;
+}
 
     .featured + .main-content {
-        background: url("../Images/heroAccent.png") no-repeat;
+        background: url() no-repeat;
+        
     }
 
 header .content-wrapper {
-    padding-top: 20px; 
+  
 }
 
 footer {
     clear: both;
     background-color: #e2e2e2;
     font-size: .8em;
-    height: 100px;
+    height:5px;
+    
 }
 
 
@@ -668,7 +674,7 @@ tr.pager td {
     }
 
     .featured .content-wrapper {
-        padding: 10px;
+        
     }
 
     /* page content */
@@ -748,8 +754,8 @@ tr.pager td {
 
     footer {
         text-align: center;
-        height: auto;
-        padding: 10px 0;
+        
+      
     }
 
         footer p {
